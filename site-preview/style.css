@@ -1,0 +1,254 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #4c5866;
+}
+
+.container {
+  max-width: 1110px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 27px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(181, 169, 169);
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-inner a {
+  text-decoration: none;
+}
+
+.header-inner a:hover {
+  color: #7875fe;
+  transition: color 0.3s ease-in-out;
+}
+
+.logo {
+  margin-right: 300px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.list-items {
+  display: flex;
+  gap: 60px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.header__buttons-item:hover {
+  /* Добавить новый svg-файл с заменой цвета через :hover */
+}
+
+main {
+  padding-top: 10px;
+}
+
+.intro {
+  margin-top: 60px;
+}
+
+.intro-inner {
+  display: flex;
+  gap: 126px;
+}
+
+.text-content {
+  width: 445px;
+}
+
+.h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: 130px;
+}
+
+.text-content p {
+  margin-top: 30px;
+  line-height: 27px;
+}
+
+.catalog-btn {
+  background: none;
+  width: 255px;
+  height: 70px;
+  margin-top: 30px;
+  border: 1px solid #7875FE;
+  color: #7875FE;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.catalog-btn:hover {
+  background-color: #7875FE;
+  color: #fff;
+  transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.info {
+  background-color: #EBEBEB;
+  padding: 90 auto 90;
+}
+
+.block-results {
+  display: flex;
+  padding-top: 60px;
+  gap: 30px;
+}
+
+.results-item {
+  border-top: 1px solid #C0C0C0;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  line-height: 27px;
+  gap: 30px;
+}
+
+.results-item__text p{
+  color: #85859B;
+}
+
+.block__info {
+  display: flex;
+  margin-top: 90px;
+  align-items: center;
+  font-weight: 400;
+}
+
+.block__info h2 {
+  color: #666666;
+  font-size: 40px;
+}
+
+.block__info p {
+  margin-top: 20px;
+  line-height: 31px;
+  font-size: 18px;
+}
+
+.artical__inner {
+  margin-top: 90px;
+  display: flex;
+  gap: 30px;
+}
+
+.artical__inner-item h3{
+  margin-top: 20px;
+  font-size: 30px;
+  color: #666;
+  font-weight: 400;
+}
+
+.artical__inner-item .under__text{
+  color: #b5b5bd;
+  margin-top: 8px;
+}
+
+.artical__inner-item .text{
+  margin-top: 8px;
+  line-height: 30.6px;
+  font-size: 18px;
+}
+
+.artical-btn {
+  margin-top: 20px;
+  background: none;
+  border: none;
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  align-items: center;
+  color: #7875fe;
+  cursor: pointer;
+}
+
+.artical-btn:hover {
+  color: black;
+  transition: .3s;
+}
+
+.companies {
+  margin-top: 90px;
+  background-color: #ebebeb;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  padding: 90px 0 90px;
+  list-style: none;
+}
+
+.sketch-inner {
+  margin-top: 90px;
+  display: flex;
+  gap: 30px;
+}
+
+.sketch__title {
+  margin-top: 24px;
+  color: #666;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.sketch__descp {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  color: #85859b;
+  margin-top: 10px;
+}
+
+.sketch__btn {
+  margin-top: 30px;
+  width: 255px;
+  height: 70px;
+  background: none;
+  border: 1px solid #7875FE;
+  color: #7875FE;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.sketch__btn:hover {
+  background-color: #7875FE;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer {
+  background-color: #4C5866;
+}
+
+.footer-inner {
+  padding: 27px 0 27px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  display: flex;
+  gap: 32px;
+}
