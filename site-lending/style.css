@@ -1,0 +1,29 @@
+* {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.parent {
+  display: grid;
+  background-color: bisque;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100px 50% 200px;
+  gap: 10px;
+}
+
+.child {
+  background-color: tan;
+}
+
+.child__header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: span 3;
+}
+
+.child__left-position {
+  background-color: aquamarine;
+  grid-row: span 2;
+}
